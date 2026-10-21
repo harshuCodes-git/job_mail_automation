@@ -8,7 +8,7 @@ supported. There are no maintained release branches.
 ## Reporting a vulnerability
 
 Please **do not open a public issue** for a security problem. Instead, email
-**works.dubeyharsh@gmail.com** with a description and, if possible, steps to
+**aditisharma0032@gmail.com** with a description and, if possible, steps to
 reproduce. You should get a response within a few days. There is no bug-bounty
 program.
 
