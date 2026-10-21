@@ -12,17 +12,14 @@ const { processBounces } = require('./bounces');
 // git-ignored (like .env). Copy the matching .example file and customize it.
 function tpl(name) {
   const file = path.join(__dirname, '..', 'templates', name);
-  try {
+  if (fs.existsSync(file)) {
     return fs.readFileSync(file, 'utf8');
-  } catch (err) {
-    if (err.code === 'ENOENT') {
-      throw new Error(
-        `templates/${name} not found. Copy templates/${name.replace(/(\.\w+)$/, '.example$1')} ` +
-          `to templates/${name} and write your own email before running a campaign.`
-      );
-    }
-    throw err;
   }
+  const fallback = path.join(__dirname, '..', 'templates', name.replace(/(\.\w+)$/, '.example$1'));
+  if (fs.existsSync(fallback)) {
+    return fs.readFileSync(fallback, 'utf8');
+  }
+  throw new Error(`templates/${name} not found.`);
 }
 const HTML_TEMPLATE = tpl('email.html');
 const TEXT_TEMPLATE = tpl('email.txt');

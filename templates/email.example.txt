@@ -1,19 +1,20 @@
-Hi {{name}},
+Dear {{name}},
 
-I'm reaching out about opportunities at {{company}} and wanted to introduce myself directly given your role there.
+I came across your opening for the {{job_title}} role at {{company}} and would like to apply.
 
-[Replace this paragraph with 2-3 lines about who you are and what you do - your current role, your main skills, and the kind of role you're looking for.]
+I'm a Software Engineer with 2+ years of experience in full-stack development, backend engineering, and AI-powered applications. I have hands-on experience with Python, FastAPI, JavaScript, TypeScript, React.js, Node.js, REST APIs, and AWS, along with experience building RAG-based AI applications and real-time voice AI systems.
 
-- [A concrete achievement or project, with a number if you have one]
-- [Another relevant skill or project]
-- [A third, if useful - keep this list short]
+I've also solved 1,000+ coding problems across platforms such as LeetCode, CodeChef, and Codeforces, demonstrating strong problem-solving and competitive programming skills.
 
-Resume: https://example.com/resume
-Portfolio: https://example.com
-LinkedIn: https://linkedin.com/in/you
+Please find my resume linked below. I'd welcome the opportunity to discuss how my technical skills and experience could contribute to your team.
 
-Would love to be considered for a role at {{company}}, or to connect if there's a fit. Happy to share more or jump on a quick call.
+Resume: https://drive.google.com/file/d/1arZcjbQ6vfmYWtKeRWUGIAeMDyFDhQh2/view
+GitHub: https://github.com/aditisharma32
+LinkedIn: https://www.linkedin.com/in/aditi-sharma-dev/
 
-Best,
-Your Name
-Your phone (optional)
+Thank you for your time and consideration.
+
+Best regards,
+Aditi Sharma
++91-9079092859
+aditisharma0032@gmail.com
