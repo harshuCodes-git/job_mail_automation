@@ -40,7 +40,7 @@ function render(str, contact) {
     .replace(/\{\{\s*name\s*\}\}/g, firstName(contact.name))
     .replace(/\{\{\s*fullname\s*\}\}/g, contact.name || firstName(contact.name))
     .replace(/\{\{\s*email\s*\}\}/g, contact.email)
-    .replace(/\{\{\s*title\s*\}\}/g, contact.title || 'your team')
+    .replace(/\{\{\s*(?:job_)?title\s*\}\}/g, contact.title || 'your team')
     .replace(/\{\{\s*company\s*\}\}/g, contact.company || 'your company');
 }
 
